@@ -13,7 +13,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class JSONWriter implements Writer {
+public class JsonWriter implements Writer {
     @Override
     public void write(Object object, String filePath) {
         ArrayList<Developer> developers = (ArrayList<Developer>) object;

@@ -1,6 +1,7 @@
 package Main;
 
-import Class.FileConverter.XMLtoJson;
+import Class.FileConverter.JsonToXML;
+import Class.FileConverter.XMLToJson;
 import Class.FileExtension.FileExtension;
 
 import java.io.File;
@@ -17,7 +18,13 @@ public class Main {
         }
 
         if (FileExtension.getExtension(args[0]).equals("xml")) {
-            XMLtoJson converter = new XMLtoJson();
+            XMLToJson converter = new XMLToJson();
+            converter.convert(args[0], args[1]);
+            System.out.println("The conversion was successful, the result was saved to the " + args[1] + " file");
+        }
+
+        if (FileExtension.getExtension(args[0]).equals("json")) {
+            JsonToXML converter = new JsonToXML();
             converter.convert(args[0], args[1]);
             System.out.println("The conversion was successful, the result was saved to the " + args[1] + " file");
         }

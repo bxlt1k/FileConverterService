@@ -1,5 +1,5 @@
 package Interface.FileReader;
 
-public interface FileReader {
+public interface Reader {
     Object read(String fileName);
 }
