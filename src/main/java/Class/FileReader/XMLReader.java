@@ -1,7 +1,7 @@
 package Class.FileReader;
 
 import Class.Entity.Game;
-import Interface.FileReader.FileReader;
+import Interface.FileReader.Reader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -13,7 +13,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class XMLReader implements FileReader {
+public class XMLReader implements Reader {
     @Override
     public Object read(String fileName) {
         DocumentBuilder documentBuilder = null;

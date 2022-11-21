@@ -1,0 +1,89 @@
+{
+  "developers": [
+    {
+      "developer": {
+        "name": "Valve",
+        "games": [
+          {
+            "name": "Dota Underlords",
+            "publisher": "Valve",
+            "releaseDate": "June 20, 2019",
+            "tags": [
+              "casual",
+              "chess",
+              "competitive",
+              "cross-platform multiplayer"
+            ]
+          },
+          {
+            "name": "Dota 2",
+            "publisher": "Valve",
+            "releaseDate": "July 9, 2013",
+            "tags": [
+              "action rpg",
+              "competitive",
+              "co-op",
+              "multiplayer"
+            ]
+          },
+          {
+            "name": "Counter-Strike: Global Offensive",
+            "publisher": "Valve",
+            "releaseDate": "August 21, 2012",
+            "tags": [
+              "co-op",
+              "competitive",
+              "cooperative",
+              "first-person"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "developer": {
+        "name": "Electronic Arts",
+        "games": [
+          {
+            "name": "Sea of Solitude",
+            "publisher": "Electronic Arts",
+            "releaseDate": "July 5, 2019",
+            "tags": [
+              "3d",
+              "boat",
+              "water",
+              "mental-problem"
+            ]
+          },
+          {
+            "name": "NHL 20",
+            "publisher": "Electronic Arts",
+            "releaseDate": "September 13, 2019",
+            "tags": [
+              "ice",
+              "sport"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "developer": {
+        "name": "Feral Interactive",
+        "games": [
+          {
+            "name": "Batman: Arkham Asylum",
+            "publisher": "Feral Interactive",
+            "releaseDate": "August 25, 2009",
+            "tags": [
+              "exploration",
+              "hero",
+              "island",
+              "stealth"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

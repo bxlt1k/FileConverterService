@@ -4,12 +4,12 @@ import Class.Entity.Developer;
 import Class.Entity.Game;
 import Class.FileExtension.FileExtension;
 import Class.FileReader.XMLReader;
-import Class.FileWriter.JSONWriter;
+import Class.FileWriter.JsonWriter;
 import Interface.FileConverter.FileConverter;
 
 import java.util.ArrayList;
 
-public class XMLtoJson implements FileConverter {
+public class XMLToJson implements FileConverter {
     @Override
     public void convert(String inputFileName, String outputFileName) {
         if (!FileExtension.getExtension(outputFileName).equals("json")) {
@@ -20,9 +20,8 @@ public class XMLtoJson implements FileConverter {
         ArrayList<Game> games = (ArrayList<Game>) reader.read("data/input/" + inputFileName);
         ArrayList<Developer> developers = convertGamesToDevelopers(games);
 
-        JSONWriter writer = new JSONWriter();
+        JsonWriter writer = new JsonWriter();
         writer.write(developers, "data/output/" + outputFileName);
-        System.out.println(games);
     }
 
     private ArrayList<Developer> convertGamesToDevelopers(ArrayList<Game> games) {
