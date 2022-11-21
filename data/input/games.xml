@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library>
+    <game id="0">
+        <name>Dota Underlords</name>
+        <developer>Valve</developer>
+        <publisher>Valve</publisher>
+        <releaseDate>June 20, 2019</releaseDate>
+        <tags>
+            <tag>casual</tag>
+            <tag>chess</tag>
+            <tag>competitive</tag>
+            <tag>cross-platform multiplayer</tag>
+        </tags>
+    </game>
+    <game id="1">
+        <name>Dota 2</name>
+        <developer>Valve</developer>
+        <publisher>Valve</publisher>
+        <releaseDate>July 9, 2013</releaseDate>
+        <tags>
+            <tag>action rpg</tag>
+            <tag>competitive</tag>
+            <tag>co-op</tag>
+            <tag>multiplayer</tag>
+        </tags>
+    </game>
+    <game id="2">
+        <name>Counter-Strike: Global Offensive</name>
+        <developer>Valve</developer>
+        <publisher>Valve</publisher>
+        <releaseDate>August 21, 2012</releaseDate>
+        <tags>
+            <tag>co-op</tag>
+            <tag>competitive</tag>
+            <tag>cooperative</tag>
+            <tag>first-person</tag>
+        </tags>
+    </game>
+    <game id="3">
+        <name>Sea of Solitude</name>
+        <developer>Electronic Arts</developer>
+        <publisher>Electronic Arts</publisher>
+        <releaseDate>July 5, 2019</releaseDate>
+        <tags>
+            <tag>3d</tag>
+            <tag>boat</tag>
+            <tag>water</tag>
+            <tag>mental-problem</tag>
+        </tags>
+    </game>
+    <game id="4">
+        <name>NHL 20</name>
+        <developer>Electronic Arts</developer>
+        <publisher>Electronic Arts</publisher>
+        <releaseDate>September 13, 2019</releaseDate>
+        <tags>
+            <tag>ice</tag>
+            <tag>sport</tag>
+        </tags>
+    </game>
+    <game id="5">
+        <name>Batman: Arkham Asylum</name>
+        <developer>Feral Interactive</developer>
+        <publisher>Feral Interactive</publisher>
+        <releaseDate>August 25, 2009</releaseDate>
+        <tags>
+            <tag>exploration</tag>
+            <tag>hero</tag>
+            <tag>island</tag>
+            <tag>stealth</tag>
+        </tags>
+    </game>
+</library>
