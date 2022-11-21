@@ -1,1 +1,5 @@
 .idea
+out
+target
+data/output
+src/main/resources
